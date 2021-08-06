@@ -37,7 +37,8 @@ class Moni:
 		return pyautogui.locate(pinimage,screen,confidence=confidence)
 
 
-b = Moni('bilibili','emulator-5556')
+if __name__ == '__main__':
+	b = Moni('bilibili','emulator-5556')
 
 # a = b.locate_on_screenshot('../Pictures/ap.png',confidence=0.8)
 
